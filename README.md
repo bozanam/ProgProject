@@ -24,5 +24,15 @@ Bookship https://www.bookshipapp.com
 Met deze app kun je boeken delen, chatten en foto's sturen. Er is echter geen calender en daarnaast zal mijn app zich niet richten op foto's verzeneden. 
 Er is ook geen punten systeem voor de boeken die je gelezen hebt, maar wel een recommandation sectie. 
 
+### Hardest part
+Naar verwachting zal het moeilijkst gedeelte het maken van de het integreren van de kalender zijn en het maken van een poll. 
+Het fijne aan de kalender is dat er een google api is, dus zal er veel documentatie over zijn op internet. 
+Bij de poll niet zo, hier heb ik al naar gezocht, dus zal dit een uitdaging zijn. 
+Een ander moeilijk gedeelte is wellicht een werkende zoekbar maken.
 
+#### Doelgroep
+Dit zijn de boekenwormen, die graag lezen en hun ervaringen graag met andere willen delen. 
+
+
+### Sketch
 
