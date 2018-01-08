@@ -6,10 +6,15 @@ Dit is een soort book club app. Het idee is dat je aangeeft welke boeken je wil 
 
 ### Main features
 *MVP* Een account aanmaken waarmee je jouw favorieten boeken kan opslaan en delen met andere gebruikers
+
 *MVP* Een lijst maken met boeken die je nog wil lezen (Wishlist)
-*MVP* Punten krijgen als je jouw wishlist afwerkt.
+
+*MVP* Punten krijgen als je jouw wishlist afwerkt
+
 *MVP* Een group aanmaken met andere gebruikers
+
 *MVP* Een datum prikken nmet andere gebruikers
+
 *Extra* Een poll maken om te beslissen wat het volgende boek is voor de meeting
 
 ### Data sources
