@@ -1,5 +1,11 @@
 ## Design
 
+API voor boeken: API Endpointhttp://api.nytimes.com/svc/books/
+*al een key aangevraagd en gekregen*
+Firebase zal gebruikt worden voor een gebruiker login
+Voor de kalender, om een datum te kunnen prikken:
+https://developers.google.com/google-apps/calendar/
+
 In de volgende schets valt te zien waar connecties met FireBase en de boeken API worden gemaakt.
 ![](https://github.com/bozanam/ProgProject/blob/master/doc/sketch%2Bconnections.png)
 
