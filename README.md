@@ -1,4 +1,7 @@
 # ProgProject
+### Better Code Hub
+<img src='https://bettercodehub.com/edge/badge/bozanam/ProgProject?branch=master'>
+-----------------
 
 ### The idee
 Dit is een soort book club app. Het idee is dat je aangeeft welke boeken je wil lezen of welke je gelezen hebt. Dit kun je delen met andere gebruikers. Er kan een groep gemaakt worden binnen welke je een datum kunt kiezen voor een volgende bijeenkomst. 
