@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "904205069331",
+    "firebase_url": "https://bookclubbers-206c4.firebaseio.com",
+    "project_id": "bookclubbers-206c4",
+    "storage_bucket": "bookclubbers-206c4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904205069331:android:72a40b6922bd7bef",
+        "android_client_info": {
+          "package_name": "com.example.bozana.progproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "904205069331-p7t33nlvd39kcf4a0jllpdeekk1ptpc5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bozana.progproject",
+            "certificate_hash": "6d79dec9d99828a3950fd6129b8212dee02c3745"
+          }
+        },
+        {
+          "client_id": "904205069331-ahpklaa30pvkfn75hb7lmvmtodvcjraf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiNRVk2hJDbukSnQvA67HWTCIL0NcH-mA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "904205069331-ahpklaa30pvkfn75hb7lmvmtodvcjraf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
