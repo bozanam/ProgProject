@@ -1,14 +1,15 @@
 package com.example.bozana.progproject;
 
 import android.content.Intent;
+import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.util.Log;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -22,6 +23,9 @@ import com.google.firebase.auth.FirebaseUser;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
+    private ImageView Logo;
+    private EditText mUsername;
+    private TextView mUname;
     private EditText mEmail;
     private EditText mPassword;
     private Button mSignup;
@@ -36,6 +40,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        mUsername = findViewById(R.id.ETusername);
         mEmail = findViewById(R.id.email);
         mPassword = findViewById(R.id.password);
         mAuth = FirebaseAuth.getInstance();
@@ -66,7 +71,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View view){ //making sure that when a title is clicked, something happens
         email = mEmail.getText().toString();
         password = mPassword.getText().toString();
-        if (view.getId() == R.id.tvTitle){
+        if (view.getId() == R.id.TVusername){
             startActivity(new Intent(view.getContext(), SecondActivity.class));
         } else {
             if (email.length() > 0 && password.length() > 0) {
@@ -149,12 +154,5 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
 
-
-    public void goHome(MenuItem item) {
-
-        Intent intent = new Intent(getApplicationContext(), MainActivity.class);
-        startActivity(intent);
-
-    }
 
 }
