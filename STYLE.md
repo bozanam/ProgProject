@@ -1,6 +1,13 @@
+# Style Guide
 
+* Voor Classes wordt gebruik gemaakt gan Upper Camel Case
+* Duidelijke variabel namen ( dus geen string1, string01, etc)
+* Methodes die max 15 regels lang zijn
+* Methodes in lower Camel Case
+* Alle screenshots etc. dienen in de doc map te staan
+* Geen dubbele code
+* max twee regels whitespace tussen methodes
 
-View Style Guide
+Voor meer visuele uitleg zie 
 
-
-<img src="https://github.com/bozanam/ProgProject/blob/master/doc/style%20guide.pdf" alt="some text"  width="4200" height="4200">
+https://github.com/bozanam/ProgProject/blob/master/doc/style%20guide.pdf
