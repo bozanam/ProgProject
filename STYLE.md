@@ -3,6 +3,4 @@
 View Style Guide
 
 
-{r label, out.width = "85%", fig.cap = "caption"}
-include_graphics("https://github.com/bozanam/ProgProject/blob/master/doc/style%20guide.pdf")
-[embed]https://github.com/bozanam/ProgProject/blob/master/doc/style%20guide.pdf[/embed]
+<img src="https://github.com/bozanam/ProgProject/blob/master/doc/style%20guide.pdf" alt="some text"  width="4200" height="4200">
